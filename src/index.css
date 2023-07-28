@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+    --primary-color: #1E3673;
+    
+    --secondary-color: #BEECFF;
+    ;
+}
+
+/* .my-button {
+    background: linear-gradient(to right, #FF0000, #00FF00);
+} */
+.back{
+    background-color:#DEF1F9 ;
+}
+.adj{
+    position: relative;
+    bottom: 100px;
+}
+@media(max-width: 800px){
+    .adj{
+        position: relative;
+        bottom: 50px;
+    }
+}
+

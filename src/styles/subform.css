@@ -1,0 +1,81 @@
+.subb{
+    background-color: white;
+    height: 228px;
+    position: relative;
+    top: 48px;
+}
+.twice{
+    justify-content: space-between;
+    padding-top: 6%;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.lov{
+    color:#1E3673 ;
+    font-family: var(--roboto);
+    font-weight: bolder;
+}
+.mov{
+    padding-top: 20px;
+    width: 614.5px;
+    
+}
+.mov input{
+    width: 463px;
+    height: 41px;
+}
+.mov button{
+    border-radius: 15px;
+    border: none;
+    width: 135px;
+    height: 41px;
+    color: white;
+    background: linear-gradient(123.09deg, #2F98C2 -7.49%, #1E3673 78.8%);
+    position: relative;
+    right: 130px;
+}
+
+@media(max-width: 768px){
+    .lov{
+       margin-left: 150px;
+       text-align: center;
+    }
+
+    .mov{
+        padding-left: 140px;
+    }
+    .mov input{
+        width: 325px;
+    }
+    .mov button{
+        right: 50px;
+    }
+    
+}
+
+@media(max-width:500px){
+    .lov{
+        margin-right: 150px;
+       
+    }
+    .mov{
+        width: 100%;
+        padding-left: 40px;
+    }
+    .mov input{
+        width: 60%;
+    }
+
+}
+@media(max-width: 1024px){
+    .twice{
+        text-align: center;
+    }
+    .lov{
+        margin-left: 30%;
+    }
+    .mov{
+        margin-left: 25%;
+    }
+}

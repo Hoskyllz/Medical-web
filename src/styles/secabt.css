@@ -1,0 +1,247 @@
+.check{
+    position: relative;
+    top: 160px;
+    color: #1E3673;
+    font-family: var(--roboto);
+    
+}
+.formob{
+    display: none;
+}
+.uss{
+    color: #1E3673;
+    font-family: var(--roboto);
+}
+.uss h5{
+    font-weight: lighter;
+}
+.uss button{
+    border: none;
+    color: white;
+    background-color: #2F98C2;
+    border-radius: 20px;
+    width: 136px;
+    height: 50px;
+}
+.checkam{
+    padding-bottom: 15px;
+}
+.checked{
+    padding-top: 28px;
+    overflow: hidden;
+}
+.check img{
+    position: absolute;
+    z-index: 1;
+    width: 35.94px;
+    height: 32.81px;
+}
+.check p{
+    position: relative;
+    z-index: 2;
+    left: 45px;
+    top: 6px;
+}
+.aboutus{
+    padding-top: 60px;
+    display: flex;
+    
+}
+.bm{
+    padding-top: 32px;
+}
+.blk{
+    position: relative;
+    bottom: 58px;
+    left: 150px;
+    overflow: hidden;
+    width: 363px;
+    height: 481px;
+}
+.micro{
+    width: 412px;
+    height: 530px;
+}
+hr{
+   position: relative;
+   top: 20px;
+}
+.bothos{
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #1E3673;
+    font-family: var(--roboto);
+    padding-top: 40px;
+}
+.os{
+    text-align: start;
+}
+.osmobile{
+    display: none;
+}
+.os button{
+    border: none;
+    color: white;
+    background-color: #2F98C2;
+    border-radius: 20px;
+    width: 136px;
+    height: 50px;
+
+}
+.om{
+    text-align: start;
+}
+.om hr{
+    padding-bottom: 20px;
+}
+.numpic{
+    justify-content: space-around;
+    padding-top: 60px;
+}
+.four{
+    padding-top: 40px;
+}
+
+.meji{
+    justify-content: space-between;
+    text-align: center;
+}
+
+.meji1{
+    background-color: #2F98C2;
+    border: 2px solid #1E3673;
+    box-shadow: 18px 18px #1E3673;
+    color: white;
+    font-family: var(--roboto);
+    width: 180px;
+    height: 188px;
+    padding-top: 35%;
+    border-radius: 20px;
+}
+.meji1 h4{
+    font-weight: bold;
+}
+.meji2{
+    background-color: #2F98C2;
+    border: 2px solid #1E3673;
+    box-shadow: 18px 18px #1E3673;
+    color: white;
+    font-family: var(--roboto);
+    margin-top: 40px;
+    width: 180px;
+    height: 188px;
+    padding-top: 35%;
+    border-radius: 20px;
+}
+.meji2 h4{
+    font-weight: bold;
+}
+
+.meji3{
+background-color: #2F98C2;
+border: 2px solid #1E3673;
+box-shadow: 18px 18px #1E3673;
+color: white;
+font-family: var(--roboto);
+margin-left: 80px;
+width: 180px;
+height: 188px;
+padding-top: 25%;
+border-radius: 20px;
+}
+.meji3 h4 {
+    font-weight: bold;
+}
+
+.meji4{
+    background-color: #2F98C2;
+    border: 2px solid #1E3673;
+    box-shadow: 18px 18px #1E3673;
+    color: white;
+    font-family: var(--roboto);
+    margin-top: 40px;
+    margin-left: 80px;
+    width: 180px;
+    height: 188px;
+    padding-top: 25%;
+    border-radius: 20px;
+}
+.meji4 h4 {
+    font-weight: bold;
+}
+.roundpic{
+    width: 600px;
+    height: 600px;
+    padding-left: 80px;
+}
+.roundpic img{
+    width: 500px;
+}
+@media(max-width: 800px){
+    .blk{
+        display: none;
+    }
+    .micro{
+        width: 151px;
+        height: 276px;
+    }
+        .micro img{
+            width: 100%;
+            height: 276px;
+        }
+        .formob{
+            display: block;
+            color: #1E3673;
+            position: relative;
+            right: 20px;
+            
+        }
+        hr{
+            right: 20px;
+            width: 50%;
+        }
+        .uss{
+            display: none;
+        }
+
+        .os{
+            display: none;
+        }
+        .osmobile{
+            display: block;
+            text-align: center;
+            
+        }
+        .om{
+            text-align: center;
+            padding: 50px;
+        }
+        .bothos{
+            padding-top: 50px;
+        }
+        .fourr{
+            display: none;
+        }
+        .roundpic {
+        width: 400px;
+        height: 400px;
+        padding-left: 50px;
+         }
+        .roundpic img {
+        width: 350px;
+         margin-right: 80px;
+        }
+        .check{
+            position: relative;
+            top: 20px;
+            right: 160px;
+            width: 381px;
+        }
+}
+
+@media(max-width: 1000px){
+    .blk {
+            display: none;
+        }
+}

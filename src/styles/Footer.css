@@ -1,0 +1,46 @@
+.side{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 80px;
+    color: white;
+    padding-top: 80px;
+    margin-top:50px ;
+    font-family: var(--roboto);
+}
+.spread{
+    display: flex;
+    gap: 60px;
+}
+footer{
+    background-color: #1E3673;
+}
+.sideone .ac{
+    padding-top: 25px;
+}
+.social{
+    margin-right: 10px;
+
+}
+.social img{
+    margin-right: 30px;
+    width: 33.33px;
+    height: 33.33px;
+}
+.social2{
+    display: none;
+}
+
+
+@media(max-width: 764px){
+    .spread{
+        display: none;
+    }
+    .sideone{
+        text-align: center;
+    }
+ .sider{
+    display: none;
+ }
+
+}

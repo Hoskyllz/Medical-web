@@ -1,0 +1,107 @@
+#med{
+    text-align: center;
+    padding-top: 80px;
+    color: #1E3673;
+}
+
+.medk{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 60px;
+    font-family: var(--roboto);
+    color: #1E3673;
+}
+
+.ambu{
+    padding-bottom: 20px;
+}
+.nurse{
+    padding-bottom: 20px;
+}
+.time{
+    padding-bottom: 30px;
+}
+.medkk{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: space-around;
+    padding-top: 60px;
+    overflow-x: scroll;
+    }
+.patient{
+    text-align: center;
+    color: #1E3673;
+    padding-top: 50px;
+}
+.patient h4{
+    font-weight: 700;
+}
+.ae{
+    display: flex;
+    
+    justify-content: space-around;
+    padding-top: 50px;
+    text-align: start;
+}
+.a{
+    background-color: white;
+    width: 483px;
+    height: 182px;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+.e {
+    background-color: white;
+    width: 483px;
+    height: 182px;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+.e h5{
+    padding-top: 30px;
+}
+.zig{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.zig .zag{
+    margin-top: 40px;
+    padding-top: 100px;
+    width: 1240px;
+    height: 212px;
+    background: linear-gradient(106.99deg, #2F98C2 17.92%, #1E3673 67.37%);
+    font-family: var(--roboto);
+    font-weight: bolder;
+}
+.zig .zag h4{
+color: white;
+}
+.zig .zag button{
+width: 180px;
+height: 37px;
+border: none;
+color: #1E3673;
+background-color: white;
+border-radius: 10px 100px / 120px 100px;
+margin-top: 10px;
+}
+
+@media(max-width: 764px){
+    .zig .zag{
+        width: 100%;
+    }
+    .ae{
+        display: flex;
+        font-weight: bold;
+        padding-bottom: 220px;
+    }
+    .medkk{
+        width: 100%;
+        height: 100%;  
+        object-fit: cover;
+    }
+}
+

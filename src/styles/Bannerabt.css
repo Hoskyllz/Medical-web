@@ -1,0 +1,33 @@
+#hero{
+    background-image: url(../src/assets/groupp.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  
+}
+.hiw{
+    font-family: var(--roboto);
+    
+}
+.hiw button{
+    border: none;
+    color: #1E3673;
+    width: 152px;
+    height: 40px;
+    border-radius: 20px;
+    padding-right: 25px;
+}
+
+@media(max-width: 100px){
+    #hero{
+        background-size: cover;
+        background-position: center;
+        height: 180px;
+
+}
+.hiw{
+    text-align: center;
+    font-weight: bold;
+}
+
+}

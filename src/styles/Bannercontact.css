@@ -1,0 +1,112 @@
+#hero3 {
+    background-image: url(../src/assets/sugeons.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+.fourth{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    color: black;
+    font-family: var(--roboto);
+    margin-top: 50px;
+    z-index: 1;
+    position: relative;
+   
+}
+.map{
+    
+    background-color: white;
+    width: 215px;
+    height: 150px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+.map img{
+    width: 50px;
+    height: 50px;
+    
+}
+.num{
+    
+    background-color:white;
+    width: 215px;
+    height: 150px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+.num img{
+    width: 50px;
+    height: 50px;
+}
+.message{
+    
+    background-color:white;
+    width: 215px;
+    height: 150px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+.message img{
+    width: 50px;
+    height: 50px;
+}
+.hours{
+    
+    background-color: white;
+    width: 215px;
+    height: 150px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+.hours img{
+    width: 50px;
+    height: 50px;
+}
+.googlemap img{
+width: 100%;
+position: relative;
+bottom: 30px;
+    
+}
+
+@media(max-width: 800px){
+    .hours{display: none;}
+        .map {
+            width: 170px;
+            height: 100px;
+            padding-top: 10px;
+            border-radius: 10px;
+          }
+        .map img {
+        width: 20px;
+        height: 20px;
+       }
+       .num{
+            width: 170px;
+            height: 100px;
+            padding-top: 10px;
+            border-radius: 10px;
+       }
+       .num img{
+        width: 20px;
+        height: 20px;
+       }
+       .message{
+        width: 170px;
+        height: 100px;
+        padding-top: 10px;
+        border-radius: 10px;
+       }
+       .message img{
+        width: 20px;
+        height: 20px;
+       }
+       .fourth{
+        margin-top: 5px;
+        gap: 5px;
+       }
+}
+
