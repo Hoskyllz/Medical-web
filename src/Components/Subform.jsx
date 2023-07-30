@@ -1,5 +1,5 @@
 import React from 'react'
-import "../styles/Subform.css";
+import "../styles/subform.css";
 
 const Subform = () => {
   return (
