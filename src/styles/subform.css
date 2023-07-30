@@ -81,6 +81,10 @@
     .mov input{
         width: 100%;
     }
+    .mov button{
+        font-weight: lighter;
+        width: 80px;
+    }
 
 }
 @media(max-width: 1024px){

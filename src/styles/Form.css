@@ -110,7 +110,7 @@
  }
  .np{
     margin-left: 20px;
-    padding-left: 40px;
+    padding-left: 20px;
  }
  .mess input{
     width: 240px;
@@ -121,8 +121,9 @@
     margin-left: 20px;
  }
  .mebu button{
-    width: 120px;
+    width: 140px;
     left: 10px;
+    font-weight: lighter;
 
  }
   
