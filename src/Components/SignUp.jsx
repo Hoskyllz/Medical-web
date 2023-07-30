@@ -57,7 +57,7 @@ const SignUp = () => {
       
           <div className="login-form">
               <div>
-                  <div className="Loglogo"> <img src={medLogo} alt="" /></div>
+                  <div className="Loglogo"> <Link  to="/" ><img src={medLogo} alt="" /></Link>  </div>
                   <div className="logmed"><h3>Create an Account</h3></div>
                   <div className="socalcolo">
                       <a href=""><img src={facebookcolo} alt="" /></a>
@@ -105,7 +105,7 @@ const SignUp = () => {
           </div>
           {error && <div className="error-message">{error}</div>}
 
-          <button type="submit" className="login-button text-white text-decoration-none">
+          <button type="submit" className="login-button text-white text-decoration-none" id="pip">
             <span>Sign Up</span>
           </button>
           <p>

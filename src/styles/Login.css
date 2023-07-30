@@ -56,6 +56,9 @@
 .lb{
     color:#2F98C2 ;
 }
+#pip{
+    margin-top: 15px;
+}
 
 @media(max-width: 768px){
     .login-image{

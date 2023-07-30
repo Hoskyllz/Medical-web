@@ -17,7 +17,7 @@ const Secabt = () => {
             <img src={blk} alt="" />
           </div>
         </div>
-        <div className="container">
+        <div className="container" id="tflow">
           <div className="uss">
             <h5>About Us</h5>
             <h4>
@@ -35,7 +35,7 @@ const Secabt = () => {
               mauris mi <br /> aliquet sed vel. Quam id sed congue diam
               tincidunt enim.
             </p>
-            <button>Learn More</button>
+            <button className="lm">Learn More</button>
           </div>
           <div className="formob">
             <h5>About Us</h5>
@@ -50,7 +50,7 @@ const Secabt = () => {
               sed <br /> vel. Quam id secongue <br />
               diam tincidunt enim.
             </p>
-            <button>Learn More</button>
+            <button className="lm">Learn More</button>
           </div>
           <div>
             <hr />
@@ -107,7 +107,7 @@ const Secabt = () => {
             <br />
             nibh aliquam nisl.
           </p>
-          <button>Learn More</button>
+          <button className="lm">Learn More</button>
         </div>
 
         <div className="osmobile">
@@ -118,7 +118,7 @@ const Secabt = () => {
             penatibus sodales cursus. Velit massa dolor leo fermentia amet sit
             mattis. Sit praesent imperdiet pretium enim ut bibendum in dolor.
           </p>
-          <button>Learn More</button>
+          <button className="lm">Learn More</button>
         </div>
         <div className="om">
           <div>

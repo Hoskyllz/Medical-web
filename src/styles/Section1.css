@@ -89,19 +89,53 @@ border-radius: 10px 100px / 120px 100px;
 margin-top: 10px;
 }
 
-@media(max-width: 764px){
+@media(max-width: 768px){
     .zig .zag{
         width: 100%;
     }
     .ae{
         display: flex;
         font-weight: bold;
-        padding-bottom: 220px;
+        padding-bottom: 80px;
+
     }
     .medkk{
         width: 100%;
         height: 100%;  
         object-fit: cover;
     }
-}
+        .a {
+            
+            width: 261px;
+            height: 290px;
+            font-weight: lighter;
+            padding-right: 20px;
 
+        }
+       .e {
+            
+            width: 261px;
+            height:290px;
+            font-weight: lighter;
+            padding-right: 20px;
+
+        }
+}
+@media(max-width: 1024px){
+    .a, .e{
+        width:310px;
+        height: 280px;
+        padding-right: 20px;
+    }
+}
+@media(max-width: 500px){
+    .a, .e{
+height: 290px;
+padding-left: 20px;
+
+    }
+    .ae{
+        justify-content: space-between;
+        gap: 10px;
+    }
+}

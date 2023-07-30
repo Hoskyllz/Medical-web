@@ -1,11 +1,11 @@
 import React from 'react'
-import Login from '../Components/Login'
+import Login from '../Components/Log'
 
 
 const Log = () => {
   return (
     <div className='back'>
-      <Login/>
+      <Log/>
     </div>
   )
 }

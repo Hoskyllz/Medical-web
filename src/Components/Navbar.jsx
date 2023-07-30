@@ -13,7 +13,7 @@ const Navbars = () => {
      <Navbar expand="lg" className="bg-body-light nav">
       <Container className='d-flex justify-content-around'>
         <Navbar.Brand className=' fs-4 fw-bold'>
-          <img src={medLogo} alt="logo" className='logo' />
+        <Link  to="/" > <img src={medLogo} alt="logo" className='logo' />  </Link> 
 
         </Navbar.Brand>
     
@@ -21,17 +21,17 @@ const Navbars = () => {
         <Navbar.Collapse id="basic-navbar-nav" className='block mx-auto text-center my-1 '>
           <Nav className="ms-auto">
            
-                <Link to ='/' className='text-decoration-none my-1 mx-3 hom'>Home</Link>
+                <Link to ='/' className='text-decoration-none text-center my-1 mx-3 hom'>Home</Link>
            
                 <Link to='/About' className='text-decoration-none text-center  my-1  mx-3 other' >About</Link>
-                <Link to ='/ContactS' className='text-decoration-none text-center  my-1 mx-3 other'>Contact</Link>
+                <Link to ='/Services' className='text-decoration-none text-center  my-1 mx-3 other'>Services</Link>
            
-                <Link to='/Services' className='text-decoration-none text-center my-1  mx-3 other' >Services</Link>
+                <Link to='/Contacts' className='text-decoration-none text-center my-1  mx-3 other' >Contacts</Link>
           </Nav>
 
           <Nav className="ms-auto">
            
-                <Link to ='/Log' className='text-decoration-none my-1   mx-3 hom'>Login</Link>
+                <Link to ='/Login' className='text-decoration-none text-center my-1   mx-3 hom'>Login</Link>
            
                 <Link to='/Sign'  >
                 <button  id="up">Signup</button>

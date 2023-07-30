@@ -80,7 +80,7 @@ hr{
 .osmobile{
     display: none;
 }
-.os button{
+.lm{
     border: none;
     color: white;
     background-color: #2F98C2;
@@ -244,4 +244,25 @@ border-radius: 20px;
     .blk {
             display: none;
         }
+}
+@media(max-width: 500px){
+    .formob{
+        
+        width: 60%;
+        transform: translateX(20px)
+        
+    }
+    .check{
+        
+        transform: translateX(-20px);
+       
+      
+    }
+
+    #tflow{
+        border: 2px solid blue;
+ }
+ .roundpic{
+   padding-left: 20px;
+ }
 }
