@@ -1,13 +1,13 @@
 import React from 'react'
-import Login from '../Components/Log'
+import LoginComponent from '../Components/LoginComponent'
 
 
-const Log = () => {
+const Login = () => {
   return (
     <div className='back'>
-      <Log/>
+      <LoginComponent/>
     </div>
   )
 }
 
-export default Log
+export default Login

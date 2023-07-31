@@ -6,10 +6,10 @@ const Bannerabt = () => {
     <div>
       <section
         id="hero"
-        class="container-fluid d-flex justify-content-center align-items-center"
+        className="container-fluid d-flex justify-content-center align-items-center"
       >
-        <div class="text-center hiw">
-          <h1 class="text-white my-3">Health is Wealth</h1>
+        <div className="text-center hiw">
+          <h1 className="text-white my-3">Health is Wealth</h1>
           <p className="text-white">
             Health is most important in your daily life. We <br /> strive to offer
             nothing but quality healthcare. <br /> You are rest assured your wellbeing
