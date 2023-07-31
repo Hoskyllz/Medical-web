@@ -12,10 +12,10 @@ const Bannerserv = () => {
     <div>
       <section
         id="hero2"
-        class="container-fluid d-flex justify-content-center align-items-center"
+        className="container-fluid d-flex justify-content-center align-items-center"
       >
-        <div class="text-center serv">
-          <h1 class="my-3">Service</h1>
+        <div className="text-center serv">
+          <h1 className="my-3">Service</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur. Ac tellus sed proin <br />
             ullamcorper arcu ut eget augue. Fermentum eget id massa <br /> morbi

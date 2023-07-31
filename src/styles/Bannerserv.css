@@ -1,5 +1,5 @@
 #hero2 {
-    background-image: url(../src/assets/handshake.png);
+    background-image: url('../assets/handshake.png');
     background-size: cover;
     background-position: center;
     height: 300px;
